@@ -1,0 +1,125 @@
+.left {
+
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    height: 54px;
+    width: 150px;
+
+}
+
+.left img {
+    width: 48px;
+    height: 50px;
+
+}
+
+.web-name {
+    margin: -49px 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white
+}
+
+
+.mid {
+
+    display: block;
+    width: 580px;
+    margin: 30px auto;
+}
+
+.navbar {
+    display: inline-block;
+
+
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: #d19f68;
+}
+
+
+
+.right {
+
+    position: absolute;
+    top: 28px;
+    right: 34px;
+    width: 165px;
+    height: 58px;
+}
+
+.btn {
+    width: 165px;
+    height: 58px;
+    position: relative;
+    background-color: #d19f68;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.btn:hover {
+    background-color: #b38758;
+    color: white;
+}
+
+.container {
+
+    margin: 220px 48px;
+    padding: 0px 60px;
+    width: 40%;
+    margin-top: 250px;
+}
+
+.txt {
+    color: #d19f68;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+#heading {
+
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}
+
+.btn2 button {
+    float: right;
+    margin-top: 74px;
+    margin-right: -480px;
+    width: 203px;
+    height: 52px;
+    background-color: #d19f68;
+    color: black;
+    cursor: pointer;
+}
+
+.btn2 button:hover {
+    color: white;
+    background-color: #b18454;
+}

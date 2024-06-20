@@ -1,0 +1,250 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+span{
+    cursor: pointer;
+}
+.flexdiv{
+    display: flex;
+    align-items: center;
+}
+/* navbar */
+nav{
+    justify-content: space-between;
+    margin-top: 8px;
+}
+nav .left{
+    margin-left: 27px;
+}
+nav .logo{
+    width: 120px;
+    height: 40px;
+}
+nav .mid{
+    justify-content: center;
+}
+nav .mid .searchbox{
+    height: 40px; 
+    border: 1px solid #c6c6c6;
+    border-radius: 30px;
+}
+nav .mid .searchbox input{
+    width: 480px;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 17px;
+    background: transparent;
+    border: none;
+}
+
+nav .mid .searchbox input:focus{
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #448dec;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+::placeholder{
+    color: #999797;
+    font-weight: 300;
+}
+.searchbox .searchbtn{
+    margin: 0px 4px;
+}
+.searchbox .searchbtn:hover{
+    background-color: rgb(231, 228, 228);
+}
+.mid .mic-icon{
+    justify-content: center;
+    width: 37px;
+    height: 37px;
+    margin-left: 12px;
+    background-color: #ececec67;
+    border-radius: 50%;
+}
+.mid .mic-icon img{
+    height: 22px;
+    width: 22px;
+}
+.right{
+    width: 128px;
+    justify-content: space-between;
+    margin-right: 29px;
+}
+/* end navbar */
+/* Main Section */
+#main-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* side-menu */
+#side-menu{
+    flex-direction: column;
+    margin-top: 8px;
+    width: 15em;
+    height: 100vh;
+}
+.items{
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+}
+#item-home{
+    background-color: rgba(194, 193, 193, 0.4);
+}
+#item-home:hover{
+    background-color: rgba(117, 116, 116, 0.7);
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 16px;
+}
+.item:hover{
+    background-color: #e9e7e7;
+}
+.item div{
+    width: 20px;
+    height: 20px;
+}
+
+.item span{
+    font-size: 13px;
+    margin-left: 17px;
+    font-weight: 300;
+} 
+.divider-3{
+    width: 100%;
+    height: 1px;
+    background-color: #d2d2d2;
+    margin: 10px 0px;
+}
+/* end side menu */
+
+/* main-videos-section */
+#main-videos-section{
+    flex-direction: column;
+    width: 85em;
+    margin-top: 10px;
+}
+/* events */
+#events{
+    padding-left: 40px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+#events .event{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 6px;
+    border-radius: 10px;
+    margin: 4px 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 0px 1px rgba(187, 187, 187, 0.5);
+}
+#events .event:nth-child(1){
+    background-color: black;
+    color: white;
+}
+#events .event:hover:nth-child(1){
+    background-color: black;
+    color: white;
+}
+#events .event:hover{
+    background-color: #ddd;
+}
+#events .event span{
+    font-size: 12px;
+}
+
+/* End Events */
+/* Videos Section */
+#videos-section{
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+}
+.video-container{
+    flex-direction: column;
+    margin: 18px 5px;
+    width: 260px;
+    height: 250px;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+.video-thumbnail{
+    position: relative;
+}
+.video-thumbnail::after{
+    content: '12:18';
+    color: white;
+    background-color: black;
+    width: 38px;
+    padding: 2px;
+    height: 17px;
+    border-radius: 3px;
+    opacity: .8;
+    font-weight: 600;
+    top: 82%;
+    left: 80%;
+    position: absolute;
+}
+.video-title-and-logo{
+    display: flex;
+    margin-top: 6px;
+}
+.video-title-and-logo p{
+    margin-left: 10px;
+}
+.video-container .channel-logo{
+    width: 36px;
+    height: 36px;
+    
+}
+.video-container .channel-logo img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.video-title{
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.meta-data{
+    margin: 10px 0px;
+    margin-left: 44px;
+    color: rgb(96, 96, 96);
+}
+.meta-data span{
+    margin: 6px 0px;
+}
+.meta-data div:nth-child(2){
+    margin-top: 3px; 
+} 
+
+/* End Videos Section */
